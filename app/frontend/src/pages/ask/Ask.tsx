@@ -270,7 +270,7 @@ export function Component(): JSX.Element {
                     {showUserUpload && <UploadFile className={styles.commandButton} disabled={loggedIn} />}
                     <SettingsButton className={styles.commandButton} onClick={() => setIsConfigPanelOpen(!isConfigPanelOpen)} />
                 </div>
-                <h1 className={styles.askTitle}>{t("askTitle")}</h1>
+              
                 <div className={styles.askQuestionInput}>
                     <QuestionInput
                         placeholder={t("gpt4vExamples.placeholder")}
